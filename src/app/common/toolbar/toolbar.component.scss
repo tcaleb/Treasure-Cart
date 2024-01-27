@@ -1,0 +1,49 @@
+.top-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1C1E;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.user{
+    margin-right: 30px;
+}
+
+.user button{
+    padding: 0%;
+    border: none;
+    margin: 5px;
+    background-color: #1C1C1E;
+
+}
+
+
+
+.user img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 0px;
+    }
+
+    .username {
+        padding-right: 0px;
+    }
+}
