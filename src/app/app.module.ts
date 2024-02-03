@@ -12,6 +12,7 @@ import { CreateAccountComponent } from './main-feartures/create-account/create-a
 import { LoginComponent } from './main-feartures/login/login.component';
 import { NotFoundErrorComponent } from './common/not-found-error/not-found-error.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CheckoutComponent } from './main-feartures/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductListItemComponent,
     CreateAccountComponent,
     LoginComponent,
-    NotFoundErrorComponent
+    NotFoundErrorComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialUiModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

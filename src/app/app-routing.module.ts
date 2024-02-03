@@ -4,11 +4,13 @@ import { ProductListItemComponent } from './common/product-list-item/product-lis
 import { LoginComponent } from './main-feartures/login/login.component';
 import { CreateAccountComponent } from './main-feartures/create-account/create-account.component';
 import { NotFoundErrorComponent } from './common/not-found-error/not-found-error.component';
+import { CheckoutComponent } from './main-feartures/checkout/checkout.component';
 
 const routes: Routes = [
   {path: '', component:ProductListItemComponent},
   {path: 'login', component:LoginComponent},
   {path: 'create-account', component:CreateAccountComponent},
+  {path: 'checkout', component:CheckoutComponent},
   {path: '**', component:NotFoundErrorComponent},
 ];
 
